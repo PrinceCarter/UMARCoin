@@ -61,10 +61,6 @@ export default function Home() {
                         transition={{ delay: 0.2, duration: 0.5 }}
                     >
                         <SectionContainer className="feature-tabs">
-                            <BadgeGroup alignment="center">
-                                <BadgeMessage>More Features</BadgeMessage>
-                                <BadgeIcon icon="twemoji:waving-hand" />
-                            </BadgeGroup>
                             <PageTitle
                                 className="text-center mx-auto"
                                 type="default"

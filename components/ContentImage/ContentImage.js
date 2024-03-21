@@ -7,14 +7,16 @@ const ContentImageData = [
     {
         id: uuid(),
         title: "First Dr Umar Coin On Solana",
-        content: "",
+        content:
+            "Embark on a pioneering journey with the first-ever Dr Umar Coin on the Solana blockchain. This revolutionary coin is not just a digital asset but a tribute to empowerment and community action. Designed for speed and efficiency, our coin leverages the Solana network's robust infrastructure to offer lightning-fast transactions and minimal fees. By holding Dr Umar Coin, you're not just part of a financial movement; you're supporting a legacy of education and independence.",
         align: "right",
         image: "https://moguldom.com/wp-content/uploads/2021/10/915.-Dr.-Umar-Johnson-Claims-Black-America-Doesnt-Need-Reparations-.jpg"
     },
     {
         id: uuid(),
         title: "Umar Building Fund",
-        content: "",
+        content:
+            "Be a cornerstone of progress with the Umar Building Fund—a visionary project funded by the UMARCoin community. Your contribution to this fund isn't just a transaction; it's a building block for a future where education and development go hand in hand. The Umar Building Fund aims to establish educational centers and community programs that stand as beacons of knowledge and self-reliance.",
         align: "left",
         image: "https://i.ytimg.com/vi/8IlfYDS34e0/maxresdefault.jpg"
     }

@@ -21,8 +21,8 @@ export default function Home() {
     return (
         <Layout className="">
             <SEO
-                title="NutriTrack - A landing page template 🚀"
-                description="Discover NutriTrack, the effortless way to plan your meals with the power of Notion. Streamline your nutrition journey and achieve your health goals with ease."
+                title="UmarCoin - First Dr Umar Coin On Solana 🚀"
+                description="Discover UmarCoin, the first Dr Umar Coin on Solana."
             />
             <div className="main-wrapper bg-[#F3F5F8] relative z-10 pb-20 pt-20 ">
                 {/* { Page Banner } */}
@@ -41,9 +41,9 @@ export default function Home() {
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Simplify Your Nutrition Journey with NutriTrack
+                                Secure Your Reperations Journey with UmarCoin
                             </PageTitle>
-                            <Content className="text-center" alignment="center">
+                            {/* <Content className="text-center" alignment="center">
                                 <p>
                                     Hey there! Welcome to NutriTrack, the
                                     ultimate nutrition meal planner powered by
@@ -52,7 +52,7 @@ export default function Home() {
                                     piece of cake (pun intended). Check them
                                     out:
                                 </p>
-                            </Content>
+                            </Content> */}
                             <ContentImage />
                         </SectionContainer>
                     </MotionBTTContainer>
@@ -69,9 +69,10 @@ export default function Home() {
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Master Your Meal Planning and Nutrition Journey
+                                Fade This Coin? 500 Lashes For Conduct
+                                Unbecoming A Black Man
                             </PageTitle>
-                            <Content className="text-center" alignment="center">
+                            {/* <Content className="text-center" alignment="center">
                                 <p>
                                     Our comprehensive Notion template designed
                                     to empower you on your meal planning and
@@ -80,51 +81,34 @@ export default function Home() {
                                     recipe integration, taking control of your
                                     meals has never been easier.
                                 </p>
-                            </Content>
-                            <CardGroup className="grid scroll-m-24 gap-8 grid-cols-1 max-w-4xl mx-auto mt-24 md:grid-cols-2">
-                                <Card className="col-span-1 text-primary-900">
-                                    <CardBody className="w-full bg-white-600/20 p-12">
-                                        <CardImage
-                                            src="/features4.png"
-                                            alt="Customizable Layouts image used."
-                                        />
-                                        <CardHeader className="!text-black !text-2xl !font-bold">
-                                            Customizable Layouts
-                                        </CardHeader>
-                                        <p>
-                                            Personalize your meal planning
-                                            experience with our flexible
-                                            layouts. Tailor your sections,
-                                            categories, and tabs to suit your
-                                            unique style and organization
-                                            preferences. Our template adapts to
-                                            your needs, providing a seamless and
-                                            personalized planning experience.
-                                        </p>
-                                    </CardBody>
-                                </Card>
-                                <Card className="col-span-1 text-primary-900">
-                                    <CardBody className="w-full bg-white-600/20 p-12">
-                                        <CardImage
-                                            src="/features3.png"
-                                            alt="Progress Tracking image used."
-                                        />
-                                        <CardHeader className="!text-black !text-2xl !font-bold">
-                                            Progress Tracking
-                                        </CardHeader>
-                                        <p>
-                                            Celebrate your wins and stay
-                                            motivated on your nutrition journey.
-                                            NutriTrack allows you to monitor
-                                            your progress with weight,
-                                            measurements, and other key metrics.
-                                            Track your improvements over time
-                                            and see the positive impact of your
-                                            healthy choices.
-                                        </p>
-                                    </CardBody>
-                                </Card>
-                            </CardGroup>
+                            </Content> */}
+                            <MotionBTTContainer
+                                transition={{ delay: 0.8, duration: 0.5 }}
+                            >
+                                <div
+                                    className="page-banner--video"
+                                    style={{
+                                        display: "flex", // Use flexbox layout
+                                        justifyContent: "center", // Center horizontally
+                                        alignItems: "center", // Center vertically
+                                        height: "680px" // Set a fixed height for the container
+                                    }}
+                                >
+                                    <iframe
+                                        width="1024"
+                                        height="680"
+                                        src="https://www.youtube.com/embed/ZbEA0Z-0pi8?si=F_zPdRucgeIME7Rc&amp?autoplay=1&enablejsapi=1"
+                                        title="YouTube video player"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        referrerPolicy="strict-origin-when-cross-origin"
+                                        allowFullScreen
+                                        style={{
+                                            maxWidth: "100%", // Ensure the iframe is not larger than its container
+                                            maxHeight: "100%" // Constrain the height to the container's height
+                                        }}
+                                    />
+                                </div>
+                            </MotionBTTContainer>
                         </SectionContainer>
                     </MotionBTTContainer>
                     {/* Testimonials */}
@@ -140,8 +124,7 @@ export default function Home() {
                                 <BadgeIcon icon="twemoji:waving-hand" />
                             </BadgeGroup>
                             <PageTitle className="" type="default">
-                                This is what our customers have to say about
-                                this template
+                                This is what holders have to say about UmarCoin
                             </PageTitle>
                             <Columns />
                         </SectionContainer>
@@ -158,10 +141,7 @@ export default function Home() {
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Got some burning questions about NutriTrack?{" "}
-                                <br></br>
-                                <br></br>No worries! We&apos;ve got the answers
-                                you need:
+                                We&apos;ve got the answers you need:
                             </PageTitle>
                             <Accordion />
                         </SectionContainer>

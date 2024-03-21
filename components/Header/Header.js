@@ -16,7 +16,7 @@ export const Header = () => {
                     <h1 className="logo mb-0">
                         <Link href="/">
                             <Image
-                                src="/nutritrack.svg"
+                                src="/fist.svg"
                                 alt="logo"
                                 className="h-6 w-auto"
                                 height="24"
@@ -31,10 +31,10 @@ export const Header = () => {
                     <ButtonGroup className="hidden md:block">
                         <a
                             role="button"
-                            href="https://github.com/christian-luntok/nutritrack"
+                            href="https://raydium.io/swap/"
                             className="btn btn--secondary ml-4"
                         >
-                            Get Template
+                            Buy Umar Coin
                             <Icon icon="material-symbols:arrow-forward-rounded" />
                         </a>
                     </ButtonGroup>

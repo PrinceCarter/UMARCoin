@@ -36,12 +36,7 @@ const DATA = [
                 target: "_blank"
             },
             {
-                label: "Instagram",
-                href: "https://github.com/christian-luntok/",
-                target: "_blank"
-            },
-            {
-                label: "Facebook",
+                label: "Telegram",
                 href: "https://github.com/christian-luntok/",
                 target: "_blank"
             }
@@ -63,7 +58,7 @@ export const Footer = () => {
                             <div className="footer--logo grid gap-8">
                                 <Link href="/">
                                     <Image
-                                        src="/nutritrack.svg"
+                                        src="/fist.svg"
                                         alt="logo"
                                         className="h-10 w-auto"
                                         height="25"
@@ -75,10 +70,10 @@ export const Footer = () => {
                                 <ButtonGroup alignment="left">
                                     <a
                                         role="button"
-                                        href="https://github.com/christian-luntok/nutritrack"
+                                        href="https://raydium.io/swap/"
                                         className="btn btn--secondary"
                                     >
-                                        Get Template
+                                        Buy Umar Coin
                                         <Icon icon="material-symbols:arrow-forward-rounded" />
                                     </a>
                                 </ButtonGroup>
@@ -127,17 +122,7 @@ export const Footer = () => {
             <SectionContainer className="footer-credits relative z-10">
                 <div className="wrap wrap-px py-6">
                     <p className="my-0">
-                        © {year} Nutritrack. All rights reserved{" - "}
-                        <span className="font-normal">
-                            A template by{" "}
-                            <Link
-                                className="transition-colors duration-300 hover:underline"
-                                href="https://chrstnl.com"
-                                target="_blank"
-                            >
-                                chrstnl.
-                            </Link>
-                        </span>
+                        © {year} UmarCoin. All rights reserved.
                     </p>
                 </div>
             </SectionContainer>

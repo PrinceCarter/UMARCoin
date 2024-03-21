@@ -8,28 +8,28 @@ const ColumnData = [
         title: "Emily J.",
         icon: "carbon:user-avatar-filled-alt",
         content:
-            "NutriPlan has revolutionized my meal planning and nutrition journey. With its intuitive Notion template, I can effortlessly plan my meals, track my nutrition, and stay on top of my health goals. It's truly a game-changer!"
+            "Before UMARCoin, I couldn't even spell cryptocurrency. Now I'm making history, one meme-tastic donation at a time! Take that, student loans!"
     },
     {
         id: uuid(),
         title: "Jason F.",
         icon: "carbon:user-avatar-filled-alt",
         content:
-            "I've tried various meal planning tools, but NutriPlan stands out from the rest. The customizable layouts and seamless recipe integration make it a breeze to create delicious and healthy meals. It's become an essential part of my wellness routine."
+            "They say money can't buy happiness, but clearly they haven't invested in UMARCoin. It's like every coin is a piece of joy – just don't ask me to explain blockchain."
     },
     {
         id: uuid(),
         title: "Miguel J.",
         icon: "carbon:user-avatar-filled-alt",
         content:
-            "NutriPlan has made meal planning and tracking nutrition so much easier and enjoyable. The comprehensive features and user-friendly interface have helped me stay on track with my health goals. I highly recommend it to anyone looking for a convenient and effective solution."
+            "I asked my magic 8-ball if UMARCoin was a good investment. It said, 'Without a doubt.' That thing's never wrong; it predicted my prom date would stand me up."
     },
     {
         id: uuid(),
         title: "Kim L.",
         icon: "carbon:user-avatar-filled-alt",
         content:
-            "I can't imagine my nutrition journey without NutriPlan. It has simplified the way I plan my meals and track my progress. The ability to customize layouts and easily integrate recipes has made healthy eating a breeze. It's been a true lifesaver!"
+            "They laughed when I mentioned UMARCoin at the dinner table. Now who's laughing, Mom? The ROI speaks louder than Dad at Thanksgiving!"
     }
 ];
 

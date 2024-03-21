@@ -12,36 +12,36 @@ export const HomeBanner = () => {
         <SectionContainer className="page-banner--container py-16">
             <SectionContainer className="page-banner--inner-container wrap wrap-px z-10">
                 {/* Appear First */}
-                <MotionBTTContainer transition={{ delay: 0.2, duration: 0.5 }}>
+                {/* <MotionBTTContainer transition={{ delay: 0.2, duration: 0.5 }}>
                     <BadgeGroup alignment="center">
                         <BadgeMessage>Discover NutriTrack!</BadgeMessage>
                         <BadgeIcon icon="game-icons:meal" />
                     </BadgeGroup>
-                </MotionBTTContainer>
+                </MotionBTTContainer> */}
                 {/* Appear Second */}
                 <MotionBTTContainer transition={{ delay: 0.4, duration: 0.5 }}>
                     <PageTitle className="text-center mx-auto" type="heavy">
-                        The effortless way to plan your meals with the power of
-                        Notion.
+                        {
+                            "Donate, Disrupt, and Dominate with UMARCoin - Let's Make History!"
+                        }
                     </PageTitle>
                 </MotionBTTContainer>
                 {/* Appear Third */}
                 <MotionBTTContainer transition={{ delay: 0.6, duration: 0.5 }}>
                     <Content className="text-center" alignment="center">
-                        <p>
-                            Streamline your nutrition journey and achieve your
-                            health goals with ease.{" "}
-                        </p>
+                        <p>Investing in the Future, One Donation at a Time. </p>
                     </Content>
                     <div className="mt-6 mb-16 text-center">
                         <ButtonGroup alignment="center">
-                            <Button href="#features">Features</Button>
+                            <Button href="https://dexscreener.com/">
+                                Chart
+                            </Button>
                             <a
                                 role="button"
-                                href="https://github.com/christian-luntok/nutritrack"
+                                href="https://raydium.io/swap/"
                                 className="btn btn--secondary"
                             >
-                                Get Template
+                                Buy Umar Coin
                                 <Icon icon="material-symbols:arrow-forward-rounded" />
                             </a>
                         </ButtonGroup>
@@ -49,14 +49,27 @@ export const HomeBanner = () => {
                 </MotionBTTContainer>
                 {/* Appear Fourth */}
                 <MotionBTTContainer transition={{ delay: 0.8, duration: 0.5 }}>
-                    <div className="page-banner--image">
-                        <Image
-                            src="/nutritrack-hero-banner.png"
-                            width={1024}
-                            height={680}
-                            alt="Page Banner"
-                            objectFit="cover"
-                            className="mx-auto"
+                    <div
+                        className="page-banner--video"
+                        style={{
+                            display: "flex", // Use flexbox layout
+                            justifyContent: "center", // Center horizontally
+                            alignItems: "center", // Center vertically
+                            height: "680px" // Set a fixed height for the container
+                        }}
+                    >
+                        <iframe
+                            width="1024"
+                            height="680"
+                            src="https://www.youtube.com/embed/JtqSGeiFkZM?si=3X5OR1FeDursm4ve?autoplay=1&enablejsapi=1"
+                            title="YouTube video player"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerPolicy="strict-origin-when-cross-origin"
+                            allowFullScreen
+                            style={{
+                                maxWidth: "100%", // Ensure the iframe is not larger than its container
+                                maxHeight: "100%" // Constrain the height to the container's height
+                            }}
                         />
                     </div>
                 </MotionBTTContainer>

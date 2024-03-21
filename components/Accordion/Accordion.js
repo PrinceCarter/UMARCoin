@@ -7,30 +7,22 @@ import clsx from "clsx";
 const accordionData = [
     {
         id: uuid(),
-        title: "What is Notion?",
+        title: "What is UmarCoin?",
         isOpen: true,
-        content:
-            "Notion is an all-in-one productivity tool that allows you to create notes, databases, and collaborative workspaces, making it easy to organize and manage your tasks, projects, and ideas in one place."
+        content: "UmarCoin is a memecoin on Solana"
     },
     {
         id: uuid(),
-        title: "Who is this template for?",
+        title: "How Can I Buy UmarCoin?",
         isOpen: false,
-        content:
-            "This template is specifically designed for Notion creators who want to create a personalized landing page for their Notion workspace, showcasing their projects, services, or content in a visually appealing manner."
+        content: "Raydium swap on Solana."
     },
     {
         id: uuid(),
-        title: "Do I need to pay for this?",
-        isOpen: false,
-        content: "No, this is free."
-    },
-    {
-        id: uuid(),
-        title: "Where can I ask more questions about this template?",
+        title: "Where can I ask more questions about UmarCoin?",
         isOpen: false,
         content:
-            "If you have any further questions or need assistance regarding this template, please feel free to reach out to me on my website, or click the Contact within the navigation links."
+            "If you have any further questions or need assistance regarding this template, please feel free to reach out to join the UmarCoin Telegram or check for updates on the UmarCoin Twitter."
     }
 ];
 

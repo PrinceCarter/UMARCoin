@@ -6,19 +6,17 @@ import { v4 as uuid } from "uuid";
 const ContentImageData = [
     {
         id: uuid(),
-        title: "Effortless Planning",
-        content:
-            "Say goodbye to meal planning stress! With NutriTrack, planning your meals becomes a breeze. Our user-friendly Notion template lets you create customized daily or weekly meal plans effortlessly. Enjoy a balanced and nutritious diet without the hassle.",
+        title: "First Dr Umar Coin On Solana",
+        content: "",
         align: "right",
-        image: "/features1.png"
+        image: "https://moguldom.com/wp-content/uploads/2021/10/915.-Dr.-Umar-Johnson-Claims-Black-America-Doesnt-Need-Reparations-.jpg"
     },
     {
         id: uuid(),
-        title: "Shopping List",
-        content:
-            "We've got your grocery shopping covered! NutriTrack includes a handy shopping list feature. As you plan your meals, the template automatically generates a comprehensive shopping list. No more forgotten items or aimless wandering in the supermarket. Shopping for healthy ingredients has never been easier!",
+        title: "Umar Building Fund",
+        content: "",
         align: "left",
-        image: "/features2.png"
+        image: "https://i.ytimg.com/vi/8IlfYDS34e0/maxresdefault.jpg"
     }
 ];
 

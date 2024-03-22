@@ -34,9 +34,9 @@ export default function Home() {
                         transition={{ delay: 0.2, duration: 0.5 }}
                     >
                         <SectionContainer id="features" className="features">
-                            <BadgeGroup alignment="center">
+                            {/* <BadgeGroup alignment="center">
                                 <BadgeMessage>Features</BadgeMessage>
-                            </BadgeGroup>
+                            </BadgeGroup> */}
                             <PageTitle
                                 className="text-center mx-auto"
                                 type="default"
@@ -81,15 +81,7 @@ export default function Home() {
                             <MotionBTTContainer
                                 transition={{ delay: 0.8, duration: 0.5 }}
                             >
-                                <div
-                                    className="page-banner--video"
-                                    style={{
-                                        display: "flex", // Use flexbox layout
-                                        justifyContent: "center", // Center horizontally
-                                        alignItems: "center", // Center vertically
-                                        height: "680px" // Set a fixed height for the container
-                                    }}
-                                >
+                                <div className="page-banner--video">
                                     <iframe
                                         width="1024"
                                         height="680"

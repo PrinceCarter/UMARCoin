@@ -7,22 +7,31 @@ import clsx from "clsx";
 const accordionData = [
     {
         id: uuid(),
-        title: "What is UmarCoin?",
+        title: "What is Umar Building Fund?",
         isOpen: true,
-        content: "UmarCoin is a memecoin on Solana"
+        content:
+            "Umar Building Fund or $UMAR is a memecoin on Solana built by devout followers of Certified School Psychologist, Motivational Speaker, Pan-Afrikanist, Doctor of Clinical Psychology, NIBPA/FDMG/IMIPAP President, and Mr.Unapologetically Afrikan: Dr. Umar Ifatunde"
     },
     {
         id: uuid(),
-        title: "How Can I Buy UmarCoin?",
-        isOpen: false,
-        content: "Raydium swap on Solana."
-    },
-    {
-        id: uuid(),
-        title: "Where can I ask more questions about UmarCoin?",
+        title: "How can I buy $UMAR?",
         isOpen: false,
         content:
-            "If you have any further questions or need assistance regarding this template, please feel free to reach out to join the UmarCoin Telegram or check for updates on the UmarCoin Twitter."
+            "This is only for Africans. The trading is only for Africans. You may not bring your white wife. You may not bring your white wife. You may not bring your white wife. If you bring a non-African, you and the non-African will be blacklisted."
+    },
+    {
+        id: uuid(),
+        title: "Where can I ask more questions about $UMAR?",
+        isOpen: false,
+        content:
+            "If you have any further questions or need assistance regarding this template, please feel free to reach out to join the $UMAR Telegram or check for updates on the $UMAR Twitter."
+    },
+    {
+        id: uuid(),
+        title: "Can I bring my white wife?",
+        isOpen: false,
+        content:
+            "YOU MAY NOT BRING YOUR WHITE WIFE. YOU MAY NOT BRING YOUR WHITE WIFE. YOU MAY NOT BRING YOUR WHITE WIFE. IF YOU BRING A NON-AFRICAN, YOU AND THE NON-AFRICAN WILL BE ESCORTED OUT."
     }
 ];
 

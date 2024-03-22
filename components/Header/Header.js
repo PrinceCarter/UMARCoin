@@ -34,7 +34,7 @@ export const Header = () => {
                             href="https://raydium.io/swap/"
                             className="btn btn--secondary ml-4"
                         >
-                            Buy Umar Coin
+                            Donate To $UMAR
                             <Icon icon="material-symbols:arrow-forward-rounded" />
                         </a>
                     </ButtonGroup>

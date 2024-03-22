@@ -21,8 +21,8 @@ export default function Home() {
     return (
         <Layout className="">
             <SEO
-                title="UmarCoin - First Dr Umar Coin On Solana 🚀"
-                description="Discover UmarCoin, the first Dr Umar Coin on Solana."
+                title="Umar Building Fund ($UMAR) - The Dr.Umar Coin on Solana ✊🏿"
+                description="Discover $UMAR, the first Dr Umar Coin on Solana."
             />
             <div className="main-wrapper bg-[#F3F5F8] relative z-10 pb-20 pt-20 ">
                 {/* { Page Banner } */}
@@ -41,7 +41,7 @@ export default function Home() {
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Secure Your Reperations Journey with UmarCoin
+                                Secure Your Reperations with $UMAR
                             </PageTitle>
                             {/* <Content className="text-center" alignment="center">
                                 <p>
@@ -120,7 +120,7 @@ export default function Home() {
                                 <BadgeIcon icon="twemoji:waving-hand" />
                             </BadgeGroup>
                             <PageTitle className="" type="default">
-                                This is what holders have to say about UmarCoin
+                                This is what holders have to say about $UMAR
                             </PageTitle>
                             <Columns />
                         </SectionContainer>

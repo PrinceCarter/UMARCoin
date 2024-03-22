@@ -16,7 +16,7 @@ const ContentImageData = [
         id: uuid(),
         title: "Umar Building Fund",
         content:
-            "Be a cornerstone of progress with the Umar Building Fund—a visionary project funded by the UMARCoin community. Your contribution to this fund isn't just a transaction; it's a building block for a future where education and development go hand in hand. The Umar Building Fund aims to establish educational centers and community programs that stand as beacons of knowledge and self-reliance.",
+            "Be a cornerstone of progress with the Umar Building Fund—a visionary project funded by the $UMAR community. Your contribution to this fund isn't just a transaction; it's a building block for a future where education and development go hand in hand. The Umar Building Fund aims to establish educational centers and community programs that stand as beacons of knowledge and self-reliance.",
         align: "left",
         image: "https://i.ytimg.com/vi/8IlfYDS34e0/maxresdefault.jpg"
     }

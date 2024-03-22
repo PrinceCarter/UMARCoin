@@ -6,7 +6,7 @@ import { Icon } from "@iconify/react";
 
 const DATA = [
     {
-        title: "Template",
+        title: "Sitemap",
         items: [
             {
                 label: "Features",
@@ -26,18 +26,18 @@ const DATA = [
         title: "Company",
         items: [
             {
-                label: "About",
-                href: "https://github.com/christian-luntok/",
+                label: "Dexscreener",
+                href: "https://dexscreener.com",
                 target: "_blank"
             },
             {
                 label: "Twitter",
-                href: "https://github.com/christian-luntok/",
+                href: "https://twitter.com/UmarCoin",
                 target: "_blank"
             },
             {
                 label: "Telegram",
-                href: "https://github.com/christian-luntok/",
+                href: "https://t.me/+L_unfPrlndZhMTkx",
                 target: "_blank"
             }
         ]
@@ -73,7 +73,7 @@ export const Footer = () => {
                                         href="https://raydium.io/swap/"
                                         className="btn btn--secondary"
                                     >
-                                        Buy Umar Coin
+                                        Donate To $UMAR
                                         <Icon icon="material-symbols:arrow-forward-rounded" />
                                     </a>
                                 </ButtonGroup>
@@ -122,7 +122,7 @@ export const Footer = () => {
             <SectionContainer className="footer-credits relative z-10">
                 <div className="wrap wrap-px py-6">
                     <p className="my-0">
-                        © {year} UmarCoin. All rights reserved.
+                        © {year} Umar Building Fund. All rights reserved.
                     </p>
                 </div>
             </SectionContainer>

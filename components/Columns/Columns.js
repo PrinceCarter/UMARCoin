@@ -8,28 +8,28 @@ const ColumnData = [
         title: "Emily J.",
         icon: "carbon:user-avatar-filled-alt",
         content:
-            "Before UMARCoin, I couldn't even spell cryptocurrency. Now I'm making history, one meme-tastic donation at a time! Take that, student loans!"
+            "Before $UMAR, I couldn't even spell cryptocurrency. Now I'm making history, one meme-tastic donation at a time! Take that, student loans!"
     },
     {
         id: uuid(),
         title: "Jason F.",
         icon: "carbon:user-avatar-filled-alt",
         content:
-            "They say money can't buy happiness, but clearly they haven't invested in UMARCoin. It's like every coin is a piece of joy – just don't ask me to explain blockchain."
+            "They say money can't buy happiness, but clearly they haven't invested in $UMAR. It's like every coin is a piece of joy – just don't ask me to explain blockchain."
     },
     {
         id: uuid(),
         title: "Miguel J.",
         icon: "carbon:user-avatar-filled-alt",
         content:
-            "I asked my magic 8-ball if UMARCoin was a good investment. It said, 'Without a doubt.' That thing's never wrong; it predicted my prom date would stand me up."
+            "I asked my magic 8-ball if $UMAR was a good investment. It said, 'Without a doubt.' That thing's never wrong; it predicted my prom date would stand me up."
     },
     {
         id: uuid(),
         title: "Kim L.",
         icon: "carbon:user-avatar-filled-alt",
         content:
-            "They laughed when I mentioned UMARCoin at the dinner table. Now who's laughing, Mom? The ROI speaks louder than Dad at Thanksgiving!"
+            "They laughed when I mentioned $UMAR at the dinner table. Now who's laughing, Mom? The ROI speaks louder than Dad at Thanksgiving!"
     }
 ];
 

@@ -22,7 +22,7 @@ export const HomeBanner = () => {
                 <MotionBTTContainer transition={{ delay: 0.4, duration: 0.5 }}>
                     <PageTitle className="text-center mx-auto" type="heavy">
                         {
-                            "Donate, Disrupt, and Dominate with UMARCoin - Let's Make History!"
+                            "DONATIONS. DONATIONS. DONATIONS. GIFTS. GIFTS. GIFTS. MORE GIFTS!"
                         }
                     </PageTitle>
                 </MotionBTTContainer>
@@ -41,7 +41,7 @@ export const HomeBanner = () => {
                                 href="https://raydium.io/swap/"
                                 className="btn btn--secondary"
                             >
-                                Buy Umar Coin
+                                Donate To $UMAR
                                 <Icon icon="material-symbols:arrow-forward-rounded" />
                             </a>
                         </ButtonGroup>
@@ -49,15 +49,7 @@ export const HomeBanner = () => {
                 </MotionBTTContainer>
                 {/* Appear Fourth */}
                 <MotionBTTContainer transition={{ delay: 0.8, duration: 0.5 }}>
-                    <div
-                        className="page-banner--video"
-                        style={{
-                            display: "flex", // Use flexbox layout
-                            justifyContent: "center", // Center horizontally
-                            alignItems: "center", // Center vertically
-                            height: "680px" // Set a fixed height for the container
-                        }}
-                    >
+                    <div className="page-banner--video">
                         <iframe
                             width="1024"
                             height="680"

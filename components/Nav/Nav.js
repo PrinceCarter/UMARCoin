@@ -6,10 +6,10 @@ import { useRouter } from "next/router";
 const navigation = [
     { name: "Features", to: "#features", href: "/#features" },
     { name: "Testimonials", to: "#testimonials", href: "/#testimonials" },
-    { name: "FAQ?", to: "#faq", href: "/#faq" },
+    { name: "FAQ", to: "#faq", href: "/#faq" },
     {
         name: "Contact",
-        href: "https://chrstnl.com/",
+        href: "https://t.me/+L_unfPrlndZhMTkx",
         isArrow: true,
         target: "_blank"
     }
